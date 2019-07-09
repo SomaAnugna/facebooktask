@@ -1,0 +1,172 @@
+<html>
+    <title>Facebook</title>
+    <head>
+     <link type="text/css" rel="stylesheet" href="stylesheet/style.css" >
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">    
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">    
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    
+    </head>
+    <body>
+        <header class="header_menu">
+            <ul class="list">
+              <li class="item left"><i class="fab fa-facebook"></i></li>
+                       
+              
+              <li class="item middle">
+                <div class="search">
+                  <input type="text" class="textsearch" placeholder="Search name..."/>
+                  <i class="fa fa-search"></i>                       </div>
+              </li> 
+              <li class="item  userName">
+                  
+                    <img src="images/pic9.jpg"><span   style="text-align: center;line-height: 29px;" id="username2" onclick="profile()"></span>
+              </li>
+          
+              
+              <li class="item right">Home</li>  | 
+              <li class="item right">Friends</li>  |  
+              <li class="item right">Create</li>  | 
+              <li class="item right" onclick="activity()">Activity Log</a></li>  
+              <li class="item right" onclick="logout()">Logout</li>   
+             
+            </ul>        
+          </header>
+          <div class="content">
+          <div class="banner" style="width: 100%">
+              <div class="banner-image">
+                 <img src="images/singapore.jpg" alt="Banner image">
+              </div>
+              <div class="banner-in">
+                    <div id="username1" class="anuname"></div>
+                  <div class="banner-pic">
+                      <img src="images/pic9.jpg">    
+                  </div>
+                  <div class="bname"></div>
+                   <div class="tabs">
+                      <div class="td">    
+                        
+                          <div class="tab-btn"><i class="fa fa-pencil"></i><span onclick="editpage()">Edit Profile</span></a></div>
+                      </div>
+                      <div class="td">
+                          <div class="tab-btn" ><i class="fa fa-list"></i><span onclick="activity()">Activity Log</span></a></div>
+                      </div>
+                  </div>
+                
+              </div>
+             
+          </div>
+          <div class="topnav" style="width:100%">
+              <a class="active" href="#Timeline" style="border-left: 1px solid #e9ebee;">Timeline</a>
+              <a href="#news">About</a>
+              <a href="#contact">Friends 178</a>
+              <a href="#about">Photos</a>
+              <a href="#about">Archive</a>
+              <a href="#about">More</a>
+            </div>
+           
+            <div style="padding:10px;"></div>
+            <div class=" about">
+                   
+                    <h3 class="h3class"><i class="fa fa-user" style="font-size:24px;margin-right:7px;"></i>About</h3>
+                    <hr style="border-top: 1px solid #3b5998;">
+                       <div class="abouthead  " >
+                           
+                            <div class="aboutleft">
+                                    <ul class="nav nav-pills nav-stacked">
+                                            <li class="active"><p class="para1">Personal Details</p></li>
+                                                <li> <p  class="para2">Education Details</p></li>
+                                                    <li><p  class="para3">Professional Details</p></li>
+                                    </ul>
+                            </div>
+                            <div class="aboutright card">
+                                <div class="div1">
+                                        <form action="/action_page.php">
+                                          
+                                              <label>User Name</label><br>
+                                              <input type="text" class="form-control inputclass" id="username" placeholder="Your Name...">
+                                            
+                                            
+                                                <label>Birth City</label><br>
+                                                <input type="text" class="form-control inputclass" id="birthcity" placeholder="Your Birth City...">
+                                           
+                                                    <label>Current City</label>
+                                                    <input type="text" class="form-control inputclass" id="currentcity"placeholder="Your Current City...">
+                                           
+                                                    <label>State</label><span class="margin-bottom:2px;"></span>
+                                                    <input type="text" class="form-control inputclass" id="state" placeholder="Your State...">
+                                            
+                                                    <label>Country</label>
+                                                    <input type="text" class="form-control inputclass" id="country" placeholder="Your Country...">
+
+                                          <p>  <input type="save" class="inputsave" value="Save" onclick="savechanges()" >
+                                            
+                                            <input  type="cancel" class="inputcancel" value="Cancel"></p>
+                                          </form>
+                                </div>
+                                <div class="div2">
+                                        <form action="/action_page.php">
+                                           
+                                                    <label>School</label>
+                                                    <input type="text" class="form-control inputclass" id="school" placeholder="Your School...">
+                                            
+                                                    <label>College</label>
+                                                    <input type="text" class="form-control inputclass" id="college" placeholder="Your   College...">
+                                                    
+                                          <p>  <input type="save" class="inputsave" value="Save" onclick="savechanges()" >
+                                            <input  type="cancel" class="inputcancel" value="Cancel"></p>
+                                          </form>
+                                </div>
+                                <div class="div3">
+                                        <form action="/action_page.php">
+                                            
+                                                    <label>Current Role</label>
+                                                    <input type="text" class="form-control inputclass" id="jobrole" placeholder="Your Job Role...">
+                                            
+                                                    <label>Current Organisation</label>
+                                                    <input type="text" class="form-control inputclass" id="organisation" placeholder="Your Organisation...">
+                                                  
+                                            
+                                           <p> <input type="save"class="inputsave" value="Save"  onclick="savechanges()">
+                                            <input  type="cancel" class="inputcancel"  value="Cancel"></p>
+                                                
+                                          </form>
+                                </div>
+                            </div>
+                       </div>                         
+               </div>
+               <div style="padding:30px"></div>
+            </div>
+      
+
+            <script>
+                $(document).ready(function(){
+                    $(".div2,.div3").hide();
+                    $(".para1").click(function(){
+                        $(".div1").show();
+                        $(".about").css({"height":"620px"})
+                      
+                        
+                        $(".div2").hide();
+                        $(".div3").hide();
+                    })
+                    $(".para2").click(function(){
+                        $(".div2").show();
+                        $(".about").css({"height":"320px"})
+                       
+                     
+                        $(".div1").hide();
+                        $(".div3").hide();
+                    })
+                    $(".para3").click(function(){
+                        $(".div3").show();
+                        $(".about").css({"height":"320px"})
+                        $(".div1").hide();
+                        $(".div2").hide();
+                    })
+                })
+                </script>
+         <script src="js/edit.js"></script>
+        
+            </body>
+            </html>

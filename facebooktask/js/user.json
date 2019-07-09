@@ -1,0 +1,62 @@
+var userdetails = [
+    {
+         "Username":"Anugna",
+         "Password":"bujjibangaram",
+         "Birthcity":"Nellore",
+         "Currentcity":"Chennai",
+         "State":"TamilNadu",
+         "Country":"India",
+         "Jobrole":" Angular Developer",
+         "Organisation":"Enterprise Touch",
+         "College":"Balaji college of engineering & Management studies",
+         "School":"Z.P.Govt High School"
+    },
+    {
+        "Username":"Abinaya",
+        "Password":"Abi@123",
+        "Birthcity":"Chennai",
+        "Currentcity":"Chennai",
+        "State":"TamilNadu",
+        "Country":"India",
+        "Jobrole":" Angular Developer",
+        "Organisation":"Enterprise Touch",
+        "College":"MNM Jain College",
+        "School":"ST.Joseph High School"
+   },
+   {
+    "Username":"Brathesia",
+    "Password":"Brathe@123",
+    "Birthcity":"Kanyakumari",
+    "Currentcity":"Chennai",
+    "State":"TamilNadu",
+    "Country":"India",
+    "Jobrole":"UI Developer",
+    "Organisation":"Enterprise Touch",
+    "College":"Womens College",
+    "School":"Vijetha High School"
+},
+{
+    "Username":"Rasathi",
+    "Password":"Rasi@123",
+    "Birthcity":"Chennai",
+    "Currentcity":"Chennai",
+    "State":"TamilNadu",
+    "Country":"India",
+    "Jobrole":" Android Developer",
+    "Organisation":"Enterprise Touch",
+    "College":"Paavai College",
+    "School":"Vignan High School"
+},
+  {
+    "Username":"Kavya",
+    "Password":"Kavya@123",
+    "Birthcity":"Chennai",
+    "Currentcity":"Chennai",
+    "State":"TamilNadu",
+    "Country":"India",
+    "Jobrole":"Full Stack Developer",
+    "Organisation":"Enterprise Touch",
+    "College":"Sree Venkateswara  engineering college",
+    "School":"Govt High School"
+  }
+]

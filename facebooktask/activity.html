@@ -1,0 +1,169 @@
+<html>
+        <title>Facebook </title>
+        <head>
+         <link type="text/css" rel="stylesheet" href="stylesheet/style.css" >
+          <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">    
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">    
+          <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        </head>
+        <body>
+            <header class="header_menu">
+                <ul class="list">
+                  <li class="item left"><i class="fab fa-facebook"></i></li>
+                           
+                  
+                  <li class="item middle">
+                    <div class="search">
+                      <input type="text" class="textsearch" placeholder="Search Name..."/>
+                      <i class="fa fa-search"></i>                       </div>
+                  </li> 
+                  <li class="item  userName">
+                      <img src="images/pic9.jpg"><span   style="text-align: center;line-height: 29px;" id="username" onclick="profile()" ></span>
+                  </li>
+                  
+                  
+                  <li class="item right">Home</li>  | 
+                  <li class="item right">Friends</li>  |  
+                  <li class="item right">Create</li>  | 
+                  <li class="item right" onclick="activity()">Activity Log</a></li>  
+                  <li class="item right"onclick="logout()">Logout</li>   
+                 
+                </ul>        
+              </header>
+              <div class="content">
+              <div class="banner" style="width: 80.5%;" >
+                  <div class="banner-image">
+                     <img src="images/singapore.jpg" alt="Banner image">
+                  </div>
+                  <div class="banner-in">
+                      <div id="username1" class="anuname"></div>
+                      <div class="banner-pic">
+                          <img src="images/pic9.jpg">    
+                      </div>
+                      <div class="bname"></div>
+                       <div class="tabs">
+                          <div class="td">    
+                            
+                              <div class="tab-btn"><i class="fa fa-pencil"></i><span onclick="editpage()">Edit Profile</a></span></div>
+                          </div>
+                          <div class="td">
+                              <div class="tab-btn"><i class="fa fa-list"></i><span onclick="activity()">Activity Log</a></span></div>
+                          </div>
+                      </div>
+                    
+                  </div>
+                 
+              </div>
+              <div class="topnav" style="width: 80.5%;" >
+                  <a class="active" href="#Timeline" style="border-left: 1px solid #e9ebee;">Timeline</a>
+                  <a href="#news">About</a>
+                  <a href="#contact">Friends 178</a>
+                  <a href="#about">Photos</a>
+                  <a href="#about">Archive</a>
+                  <a href="#about">More</a>
+                </div>
+ <div class="container">
+      <div class="col-2">
+        <div class="filter">Filter</div> 
+        <div class="col-12 active_left">
+            
+            <p><i class="fa fa-graduation-cap" aria-hidden="true" style="margin-right: 10px;"></i>Activity Log</p>
+            <p><i class="fa fa-graduation-cap" aria-hidden="true" style="margin-right: 10px;"></i>Timeline Review</p>
+         <hr><br>
+            <p><i class="fa fa-graduation-cap" aria-hidden="true" style="margin-right: 10px;"></i>Studied at <span>St'joseph hr.sec school</span></p>
+            <p><i class="fa fa-home" aria-hidden="true" style="margin-right: 10px;"></i>Lives in Chennai,<span></span>India</p>
+           <hr><br>
+            <p><i class="fa fa-map-marker" aria-hidden="true" style="margin-right: 10px;"></i>From Kumbakonam</p>
+            <p><i class="fa fa-heart" aria-hidden="true" style="margin-right: 10px;"></i>Single</p>
+          </div>
+      </div>
+      <div class="col-8 activity">
+              <div class="col-12 first_div" >
+              <div class="col-8 ficon">
+               <img src="images/logo.png" style="width:37px" > &nbsp;
+                
+             <span >Active Log</span>
+              </div>
+                
+                <div class="form-group col-4" style="margin-bottom: 0px;">
+                        <div class="search isearch">
+                                <input type="text" class="textsearch" placeholder="Search..."/>
+                                <i class="fa fa-search"></i>                       </div>
+              </div>
+              </div>
+              <div class="activity-middle">
+                 <p> July 2019</p>
+              </div>
+              <div class="col-12 second_div">
+              <b>JULY 6</b> 
+            </div>
+              <div class="col-12 activeblog_text">
+                <div class="media-left">
+                  <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/N4KBGuGdZ2U.png" class="media-object">
+                </div>
+                <div class="media-body">
+                  <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    <a href=""><i class="fa fa-pencil" aria-hidden="true" style="float:right;"></i></a></p>
+                </div>
+            </div>
+                <div class="col-12 activeblog_div">
+                <b>JULY 5 </b> 
+              </div>
+                  <div class="col-12 activeblog_div" >
+                  <div class="col-4">
+                      <div class="media-left">
+                          <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/dOJFaVZihS_.png" class="media-object">
+                        </div>
+                        <div class="media-body">
+                            <p >Lorem Ipsum</p>
+                          </div>
+                        
+                  </div>
+                  <div  class="col-3">
+                      <img src="images/pic4.jpg" style="width:150px;height:150px;"> 
+                    </div>  
+                    <div class="col-5">
+                        <div class="media-body">
+                           Loged In <p class="media-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                              <a href=""><i class="fa fa-pencil" aria-hidden="true" style="float:right;"></i></a></p>
+                          </div>
+                    </div>
+                    
+                </div>
+                
+            
+                <div class="col-12 activeblog_div">
+                <b>JULY 6</b> 
+              </div>
+                  <div class="col-12 activeblog_div" >
+                  <div class="col-4">
+                      <div class="media-left">
+                          <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/dOJFaVZihS_.png" class="media-object">
+                        </div>
+                        <div class="media-body">
+                            <p>Lorem Ipsum</p>
+                          </div>
+                        
+                  </div>
+                  <div  class="col-3">
+                      <img src="images/pic6.jpg" style="width:150px;height:150px;"> 
+                    </div>  
+                    <div class="col-5">
+                        <div class="media-body">
+                            Loged In    <p class="media-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                              <a href=""><i class="fa fa-pencil" aria-hidden="true" style="float:right;"></i></a></p>
+                          </div>
+                    </div>
+                    
+                </div>
+      </div>
+
+      
+    </div>
+</div>
+       
+<script src="js/activity.js"></script>
+<script src="js/profile.js"></script>
+
+</body>
+</html>
